@@ -1,0 +1,1 @@
+from wiki_based_doc_classifier.classifiers.TfidfClassifier import TfidfClassifier

@@ -1,0 +1,6 @@
+__pycache__*/
+*.egg-info/
+requirements-dev.txt
+examples/example_param_search.py
+.venv/
+.vscode/

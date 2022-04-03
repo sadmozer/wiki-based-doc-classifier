@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wiki-based-doc-classifier"
+version = "0.1.0"
+description = "wiki-based-doc-classifier - Wikipedia-based Document Classifier"
+authors = ["Nick <n.cardelli2@outlook.it>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "<1.22.0"
+scikit-learn = "^1.0.2"
+apache-beam = "^2.37.0"
+mwparserfromhell = "^0.6.4"
+datasets = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+Wikipedia-API = "^0.5.4"
+pandas = "^1.4.1"
+ipykernel = "^6.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
