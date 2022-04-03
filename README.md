@@ -2,11 +2,9 @@
 Wikipedia-based Document Classifier is a module for automatic multilabel classification of English texts using Wikipedia pages.
 
 ## Install
-- From source (requires git):
+- Using pip:
 ```
-git clone https://github.com/sadmozer/wiki-based-doc-classifier.git
-cd wiki-based-doc-classifier
-python setup.py install
+pip install wiki_based_doc_classifier-0.1.0-py3-none-any.whl
 ```
 
 ## Usage
